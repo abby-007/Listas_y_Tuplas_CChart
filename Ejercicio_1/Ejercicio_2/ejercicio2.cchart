@@ -1,1 +1,9 @@
+Inicio
+    Definir asignaturas Como Lista
+    asignaturas <- ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+
+    Para cada materia en asignaturas Hacer
+        Escribir "Yo estudio ", materia
+    FinPara
+Fin
 

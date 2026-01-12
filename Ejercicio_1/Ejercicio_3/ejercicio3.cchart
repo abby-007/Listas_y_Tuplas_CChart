@@ -1,18 +1,22 @@
-Inicio
-    Definir asignaturas Como Lista
-    Definir notas Como Lista
-    Definir nota Como Entero
+Proceso Ejercicio3
+    Definir asignaturas Como Caracter
+    Definir notas Como Real
+    Dimension asignaturas[5]
+    Dimension notas[5]
 
-    asignaturas <- ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+    asignaturas[1] <- "Matemáticas"
+    asignaturas[2] <- "Física"
+    asignaturas[3] <- "Química"
+    asignaturas[4] <- "Historia"
+    asignaturas[5] <- "Lengua"
 
-    Para cada materia en asignaturas Hacer
-        Escribir "Ingrese la nota de ", materia
-        Leer nota
-        Agregar nota a notas
+    Para i <- 1 Hasta 5
+        Escribir "Ingrese la nota de ", asignaturas[i]
+        Leer notas[i]
     FinPara
 
-    Para i <- 0 Hasta Longitud(asignaturas) - 1 Hacer
+    Para i <- 1 Hasta 5
         Escribir "En ", asignaturas[i], " has sacado ", notas[i]
     FinPara
-Fin
+FinProceso
 

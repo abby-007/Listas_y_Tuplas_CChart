@@ -1,12 +1,13 @@
-Inicio
-    Definir numeros Como Lista
+Proceso Ejercicio5
+    Definir numeros Como Entero
+    Dimension numeros[10]
 
-    Para i <- 1 Hasta 10 Hacer
-        Agregar i a numeros
+    Para i <- 1 Hasta 10
+        numeros[i] <- i
     FinPara
 
-    Para i <- Longitud(numeros) - 1 Hasta 0 Paso -1 Hacer
-        Escribir numeros[i], ", "
+    Para i <- 10 Hasta 1 Paso -1
+        Escribir numeros[i], ", " Sin Saltar
     FinPara
-Fin
+FinProceso
 

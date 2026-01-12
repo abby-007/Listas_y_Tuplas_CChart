@@ -1,1 +1,18 @@
+Inicio
+    Definir asignaturas Como Lista
+    Definir notas Como Lista
+    Definir nota Como Entero
+
+    asignaturas <- ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+
+    Para cada materia en asignaturas Hacer
+        Escribir "Ingrese la nota de ", materia
+        Leer nota
+        Agregar nota a notas
+    FinPara
+
+    Para i <- 0 Hasta Longitud(asignaturas) - 1 Hacer
+        Escribir "En ", asignaturas[i], " has sacado ", notas[i]
+    FinPara
+Fin
 
